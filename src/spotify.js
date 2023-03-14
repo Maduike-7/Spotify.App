@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const authEndPoint = "https://accounts.spotify.com/authorize?"
 const clientId = "3b6f5190c4d240628247ebaf818038cf"
-const redirectUri = "https://tune-eight.vercel.app/";
+const redirectUri = "https://spotify-app-one-gules.vercel.app";
 const scopes = ["user-library-read", "playlist-read-private"]
 
 

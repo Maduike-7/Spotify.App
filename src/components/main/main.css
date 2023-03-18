@@ -17,6 +17,7 @@
     gap: 10px;
     background-color: #fff;
     height: 50px;
+    width: 600px;
     max-width: 500px;
     padding: 5px 0px;
     padding-left: 15px;
@@ -57,11 +58,13 @@
     justify-content: space-between;
 }
 .banner{
-    background-image: url(./lojay.png);
+    background-image: url(https://trendybeatz.com/images/Wizkid-Made-In-Lagos-Cover.jpg);
     background-size: cover;
     padding: 10px 25px;
-    height: 220px;
+    height: 250px;
     border-radius: 10px;
+    background-repeat: no-repeat;
+    /* background-position:   center; */
 }
 .lower{
     display: flex;

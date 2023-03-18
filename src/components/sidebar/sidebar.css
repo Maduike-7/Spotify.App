@@ -1,7 +1,7 @@
 
 
 .sidebar-container{
-    max-height: 100vh;
+    max-height: 120vh;
     width: 300px;
     background-color: #fff;
     color: #000;
@@ -10,12 +10,17 @@
     justify-content: space-between;
     padding: 40px 0;
 }
-.logo{
+/* .logo{
     width: 100px;
-    /* align-self: center; */
+    /* align-self: center; 
     margin-bottom: 30px;
     margin-left: 35px;
+} */
+
+.sidebar-container h1 {
+    margin: 0 auto;
 }
+
 small{
     margin-left: 35px;
     margin-top: 10px;

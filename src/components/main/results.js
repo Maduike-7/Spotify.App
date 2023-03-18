@@ -2,6 +2,8 @@ import React from 'react'
 import axios from 'axios'
 import './results.css'
 import './main.css'
+import wizkid from './wizkid.webp'
+
 
 
 const CLIENT_ID = '3b6f5190c4d240628247ebaf818038cf'
@@ -25,10 +27,43 @@ export default function Results() {
   return (
     <div>
       <div className='results-container'>
-        <div className='result'>
-            <p>Kindly Check Console for Search results</p>
+
+          <div className='result'>
+          <div>
+          <img className='pics' src={wizkid} alt='' />
         </div>
-    
+        <div className='artist-details'>
+        <p className='title'>Bad To Me</p>
+        <p className='artist-sel'>Wizkid</p>
+        </div>
+        </div>
+        <div className='result'>
+          <div>
+          <img className='pics' src={wizkid} alt='' />
+        </div>
+        <div className='artist-details'>
+        <p className='title'>Bad To Me</p>
+        <p className='artist-sel'>Wizkid</p>
+        </div>
+        </div>
+        <div className='result'>
+          <div>
+          <img className='pics' src={wizkid} alt='' />
+        </div>
+        <div className='artist-details'>
+        <p className='title'>Bad To Me</p>
+        <p className='artist-sel'>Wizkid</p>
+        </div>
+        </div>
+         <div className='result'>
+          <div>
+          <img className='pics' src={wizkid} alt='' />
+        </div>
+        <div className='artist-details'>
+        <p className='title'>Bad To Me</p>
+        <p className='artist-sel'>Wizkid</p>
+        </div>
+        </div>
       </div>
     </div>
   )

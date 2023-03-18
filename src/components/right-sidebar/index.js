@@ -3,7 +3,8 @@ import wizkid from './wizkid.png'
 import ayra from './ayra.png'
 import oxlade from './oxlade.png'
 import burna from './burna.png'
-import ayrastarr from './ayrastarr.png'
+// import ayrastarr from './ayrastarr.png'
+import boyspyce from './boyspyce.webp';
 import "./right-sidebar.css"
 
 
@@ -62,14 +63,14 @@ export default function RightSidebar() {
       </div>
 
         <div className='artist-box'>
-            <img className='box-img' src={ayrastarr} alt='' />
+            <img className='box-img' src={boyspyce} alt='' />
             <div className='box-details'>
                 <div>
-                    <h4 className='box-name'>Ayra Starr<br /><span className='box-song'>Sability</span></h4>
+                    <h4 className='box-name'>Boy Spyce<br /><span className='box-song'>Folake</span></h4>
                     {/* <p className='box-song'>Sability</p> */}
-                </div>
+                 </div>
                 <i className="fa-regular fa-square-plus"></i>
-            </div>
+            </div> 
         </div>
 
 

@@ -54,7 +54,7 @@ export default function Search() {
         <i className='fas fa-search'></i>
         <form className='form-bar' onSubmit={search}>
         <input  onChange={event => setSearchInput(event.target.value)} type='text' className='searchbar' placeholder='Search artist, albums and tracks...' />
-        <button type='submit' className='btn' onClick={search}>Search</button>
+        {/* <button type='submit' className='btn' onClick={search}>Search</button> */}
         </form> 
       </div>
       

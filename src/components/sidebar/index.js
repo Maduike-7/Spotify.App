@@ -1,7 +1,7 @@
 // import { Link } from 'react-router-dom'
 import React, { useEffect, useState } from 'react';
-import logo from './logo.png'
-import profile from './sugarboy.png'
+// import logo from './logo.png'
+import profile from './guudie.JPG'
 import apiClient from '../../spotify';
 import "./sidebar.css"
 
@@ -10,7 +10,7 @@ import "./sidebar.css"
 
 export default function Sidebar() {
 
-  const [userName, setUserName] = useState('Seyi Peters')
+  const [userName, setUserName] = useState('Elvis Edeh')
   useEffect(() => {
     apiClient.get("me").then(response => {
       setUserName(response.data.display_name)
@@ -32,8 +32,8 @@ export default function Sidebar() {
   return (
 
     <div className='sidebar-container'>
-      <img className='logo' src = {logo} alt = ""/>
-
+      {/* <img className='logo' src = {logo} alt = ""/> */}
+<h1>GUUDIE👻</h1>
       <div className='nav-links'>
         <div className='nav-link'><i className="fa-solid fa-house"></i> Home</div>
         <div className='nav-link'><i className="fa-solid fa-arrow-trend-up"></i> Trends</div>

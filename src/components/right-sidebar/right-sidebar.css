@@ -20,6 +20,7 @@ h3{
     color: #676669;
     border-radius: 20px;
     margin: 2px;
+    cursor: pointer;
 }
 .artist{
     margin-bottom: -20px;
